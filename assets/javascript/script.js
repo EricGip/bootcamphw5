@@ -27,16 +27,16 @@ $(document).ready(function() {
         
         // getting time id from description tag / class.
         const timeId = $(this).siblings(".descriptions").attr("data-time");
-        console.log(timeId);
+        //console.log(timeId);
 
         // getting value from user input. 
         // using .val because taking the value from it, not the attribute.
         const userInput = $(this).siblings(".descriptions").val();
-        console.log(userInput);
+        //console.log(userInput);
 
         // setting to local storage.
         // this will store in console > application > local storage.
-        localStorage.setItem(timeId, userInput);
+        // localStorage.setItem(timeId, userInput);
     });
 
 
