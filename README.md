@@ -9,4 +9,8 @@ https://ericgip.github.io/bootcamphw5/
 
 # How to use
 
-Note any of your 
+Save any of your daily tasks through local storage!
+
+Grey = hour has passed
+Red = current hour
+Green = incoming hour
